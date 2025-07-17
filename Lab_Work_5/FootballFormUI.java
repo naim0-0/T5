@@ -150,7 +150,7 @@ public class FootballFormUI {
 
         if (saved) {
             JOptionPane.showMessageDialog(frame, "Registration successful!");
-            frame.dispose();  // Close form after success
+            frame.dispose();  
         } else {
             JOptionPane.showMessageDialog(frame, "Error saving data. Try again.", "Error", JOptionPane.ERROR_MESSAGE);
         }
